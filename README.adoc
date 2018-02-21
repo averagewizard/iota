@@ -67,7 +67,7 @@ A transaction's position within the DAG, and other factors, may make that transa
 
 Because of this, nodes will likely have to enforce additional local policies on which transactions to accept, which negatively impacts the fungibility of IOTA transaction outputs.
 
-Outputs that have been included in a Coordinator milestone are more valuable than those that haven't, since The Coordinator is the current the arbiter of truth in the IOTA system. Thus, if The Coordinator refuses to approve a transaction, its outputs are effectively worthless.
+Outputs that have been included in a Coordinator milestone are more valuable than those that haven't, since The Coordinator is the current arbiter of truth in the IOTA system. Thus, if The Coordinator refuses to approve a transaction, its outputs are effectively worthless.
 
 Similarly, transaction outputs that appear in a snapshot footnoteref:[iota-snapshot,
   https://medium.com/@ralf/prepare-for-the-january-28-2018-iota-snapshot-10f565b371ab[Prepare for the January 28, 2018 IOTA Snapshot (updated)], https://twitter.com/ralf[Ralf Rottmann]
